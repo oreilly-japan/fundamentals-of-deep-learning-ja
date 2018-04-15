@@ -1,0 +1,8 @@
+tensorflow==1.4.0
+scikit-learn==0.19.1
+scipy==1.0.0
+matplotlib==2.1.2
+gensim==3.3.0
+leveldb==0.194
+tflearn==0.3.2
+h5py==2.8.0rc1
