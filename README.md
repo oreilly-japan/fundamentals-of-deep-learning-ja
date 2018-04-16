@@ -29,6 +29,16 @@ $ export PYTHONPATH=$PYTHONPATH:.
 $ python fdl_example/chapter6/autoencoder_mnist.py 2
 ```
 
+#### 第6章の補足
+
+第6章では、matplotlibを使って埋め込みの可視化をしています。 matplotlibを使った可視化をするにはtkライブラリが必要となります。
+
+```bash
+$ sudo apt-get install python3-tk tk-dev
+```
+
+pyenvなどを使って環境を構築している場合は、上記のコマンドでtkライブラリをインストールした後でpythonをインストールし直す必要があります。
+
 #### 第7章の補足
 
 第7章のサンプルコードを実行するには、 以下のデータが必要となります。
